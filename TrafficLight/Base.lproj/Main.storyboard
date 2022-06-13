@@ -54,6 +54,9 @@
                                         </fragment>
                                     </attributedString>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="startButtonPressed" destination="BYZ-38-t0r" eventType="touchUpInside" id="tg3-dh-joD"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -72,6 +75,12 @@
                             <constraint firstItem="HRH-X5-ULp" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.139509" id="v4M-Gv-qCM"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="greenLight" destination="Ccd-hB-96Z" id="xeV-oG-q4f"/>
+                        <outlet property="redLight" destination="TaN-8S-2Iw" id="YlF-6f-Exb"/>
+                        <outlet property="startButton" destination="KUW-hK-9zx" id="UoB-Xp-HF4"/>
+                        <outlet property="yellowLight" destination="HRH-X5-ULp" id="ol2-wq-fdP"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
